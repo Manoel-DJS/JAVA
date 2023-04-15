@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Quest08",
+            "request": "launch",
+            "mainClass": "Lista.Quest08",
+            "projectName": "JAVA_671f68e2"
+        },
+        {
+            "type": "java",
             "name": "Quest07",
             "request": "launch",
             "mainClass": "Lista.Quest07",
