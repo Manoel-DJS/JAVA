@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Quest07",
+            "request": "launch",
+            "mainClass": "Lista.Quest07",
+            "projectName": "JAVA_671f68e2"
+        },
+        {
+            "type": "java",
+            "name": "Quest06",
+            "request": "launch",
+            "mainClass": "Lista.Quest06",
+            "projectName": "JAVA_671f68e2"
+        },
+        {
+            "type": "java",
             "name": "Quest05",
             "request": "launch",
             "mainClass": "Lista.Quest05",
