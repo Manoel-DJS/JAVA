@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Quest05",
+            "request": "launch",
+            "mainClass": "Lista.Quest05",
+            "projectName": "JAVA_671f68e2"
+        },
+        {
+            "type": "java",
+            "name": "Quest04",
+            "request": "launch",
+            "mainClass": "Lista.Quest04",
+            "projectName": "JAVA_671f68e2"
+        },
+        {
+            "type": "java",
+            "name": "Quest03",
+            "request": "launch",
+            "mainClass": "Lista.Quest03",
+            "projectName": "JAVA_671f68e2"
+        },
+        {
+            "type": "java",
+            "name": "Quest02",
+            "request": "launch",
+            "mainClass": "Lista.Quest02",
+            "projectName": "JAVA_671f68e2"
+        },
+        {
+            "type": "java",
             "name": "Quest01",
             "request": "launch",
             "mainClass": "Lista.Quest01",
