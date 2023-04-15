@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Quest01",
+            "request": "launch",
+            "mainClass": "Lista.Quest01",
+            "projectName": "JAVA_671f68e2"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
