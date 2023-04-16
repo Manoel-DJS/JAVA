@@ -15,7 +15,7 @@ public class Quest01 {
         // Soluçando
         if(numA > numB){
             System.out.println("Valor A: " + numA);
-        } else{
+        } else if(numB > numA){
             System.out.println("Valor B: " + numB);
         }
     }
