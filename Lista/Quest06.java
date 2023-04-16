@@ -1,3 +1,9 @@
+/* Nome do Aluno: Manoel Vinicius Silva Souza
+* RA: 722315125
+* Nome do Programa: Questão 6 - Hospedagem de Hotel
+* Data: 16 / 04 / 2023
+*/
+
 /** 
 
 Faça um programa calcula o total de uma hospedagem em um hotel. Ele cobra R$ 60.00 a diária e mais uma taxa de serviço:

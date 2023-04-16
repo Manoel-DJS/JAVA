@@ -1,3 +1,9 @@
+/* Nome do Aluno: Manoel Vinicius Silva Souza
+* RA: 722315125
+* Nome do Programa: Questão 7 - Mês e Estação
+* Data: 16 / 04 / 2023
+*/
+
 /**
 
 Crie um programa que lê um número entre 1 e 12, correspondendo

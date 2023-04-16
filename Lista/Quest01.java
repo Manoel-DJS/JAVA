@@ -1,3 +1,9 @@
+/* Nome do Aluno: Manoel Vinicius Silva Souza
+* RA: 722315125
+* Nome do Programa: Questão 1 - Número Maior
+* Data: 16 / 04 / 2023
+*/
+
 package Lista;
 import java.util.Scanner;
 

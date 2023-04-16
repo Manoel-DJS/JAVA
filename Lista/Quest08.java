@@ -1,3 +1,9 @@
+/* Nome do Aluno: Manoel Vinicius Silva Souza
+* RA: 722315125
+* Nome do Programa: Questão 8 - Condição Venda 
+* Data: 16 / 04 / 2023
+*/
+
 /** 
 
 8) Faça um programa que receba o valor da venda, escolha a
@@ -9,8 +15,6 @@ Venda a Prazo 60 dias - mesmo preço
 Venda a Prazo 90 dias - acréscimo de 5%
 Venda com cartão de débito - desconto de 8%
 Venda com cartão de crédito - desconto de 7%
-
-
 
 **/
 package Lista;
