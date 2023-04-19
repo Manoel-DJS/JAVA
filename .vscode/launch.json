@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Quest06",
+            "request": "launch",
+            "mainClass": "Pratica3.Quest06",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Quest05",
+            "request": "launch",
+            "mainClass": "Pratica3.Quest05",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Quest04",
+            "request": "launch",
+            "mainClass": "Pratica3.Quest04",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Quest03",
+            "request": "launch",
+            "mainClass": "Pratica3.Quest03",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Quest02",
+            "request": "launch",
+            "mainClass": "Pratica3.Quest02",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Quest01",
+            "request": "launch",
+            "mainClass": "Pratica3.Quest01",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
             "name": "Quest08",
             "request": "launch",
             "mainClass": "Lista.Quest08",
