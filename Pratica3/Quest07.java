@@ -1,3 +1,9 @@
+/* Nome do Aluno: Manoel Vinicius Silva Souza
+* RA: 722315125
+* Nome do Programa: Questão 7
+* Data: 30 / 04 / 2023
+*/
+
 /** 
 
 Escreva um programa que, dada a carga máxima de um elevador e

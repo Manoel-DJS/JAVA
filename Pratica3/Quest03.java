@@ -1,6 +1,10 @@
+/* Nome do Aluno: Manoel Vinicius Silva Souza
+* RA: 722315125
+* Nome do Programa: Questão 3 
+* Data: 30 / 04 / 2023
+*/
+
 // Faça um programa que some os números de 1 a 100 e imprima somente o valor total da soma
-
-
 
 package Pratica3;
 

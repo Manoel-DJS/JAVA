@@ -1,3 +1,9 @@
+/* Nome do Aluno: Manoel Vinicius Silva Souza
+* RA: 722315125
+* Nome do Programa: Questão 5
+* Data: 30 / 04 / 2023
+*/
+
 /**
 
 Faça um programa que determine o fatorial de um número. Para
@@ -25,11 +31,11 @@ public class Quest05 {
 
         for ( int c = numero ; c > 1 ; c-- ) {
             fatorial = c * fatorial; 
-            System.out.println(c + " " + numero);
         }
-        System.out.println(fatorial);
-        
+
         scanner.close();
+        System.out.println("Resultado do Fatorial é: " + fatorial);
+        
     }
     
 }

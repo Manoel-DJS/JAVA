@@ -1,3 +1,9 @@
+/* Nome do Aluno: Manoel Vinicius Silva Souza
+* RA: 722315125
+* Nome do Programa: Questão 1 
+* Data: 30 / 04 / 2023
+*/
+
 // Faça um programa que imprima todos os números pares de 1 a 100
 
 package Pratica3;
