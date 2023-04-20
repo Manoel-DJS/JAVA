@@ -38,6 +38,7 @@ public class Quest07 {
         } while(peso <= cargaMaxima && pessoas <= quantidadeMaxima -1);
 
         scanner.close();
+        System.out.println("Carga máxima de pessoas ou peso máximo atingido! ");
         System.out.println("Quantidade de pessoas que entraram no elevador: " + pessoas);
         System.out.println("Peso que o elevado está levando: " + peso);
     }
