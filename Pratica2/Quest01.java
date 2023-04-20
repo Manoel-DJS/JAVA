@@ -17,6 +17,7 @@ public class Quest01 {
 
         System.out.println("Digite um número(B): ");
         int numB = ler.nextInt();
+        ler.close();
         
         // Soluçando
         if(numA > numB){

@@ -15,6 +15,8 @@ public class Quest05 {
         System.out.println("Digite sua nota conceito: ");
         int nota = ler.nextInt();
 
+        ler.close();
+
         // Condição
         if(nota >= 0 && nota <= 49){
             System.out.println("Nota conceito: Insuficiente!");

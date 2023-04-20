@@ -26,6 +26,8 @@ public class Quest06 {
         System.out.println("Digite quantos dias você ficará em nosso hotel: ");
         int dias = ler.nextInt();
 
+        ler.close();
+
         // condições
         if(dias > 15){
             taxa = (float) 5.50;

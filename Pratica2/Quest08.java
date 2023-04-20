@@ -77,5 +77,6 @@ public class Quest08 {
             System.out.println("Forma de pagamento inválida // Digite um número de 1 a 6");
             break;
         }
+        ler.close();
     }
 }

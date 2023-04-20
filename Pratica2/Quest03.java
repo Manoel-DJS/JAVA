@@ -14,12 +14,14 @@ public class Quest03 {
         // Entrada de dados
         System.out.println("Digite um número: ");
         int numero = ler.nextInt();
-        
+
         // Condição
         if(numero % 2 == 0){
             System.out.println("Número é par.");
         } else{
             System.out.println("É ímpar");
         }
+
+        ler.close();
     }
 }

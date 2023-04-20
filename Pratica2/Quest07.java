@@ -78,6 +78,8 @@ public class Quest07 {
             mes = "Entrada inválida || Número Inválido";
             break;
         }
+        ler.close();
+
         System.out.println("O número: " + numero + " Corresponde ao:");
         System.out.println(mes);
 

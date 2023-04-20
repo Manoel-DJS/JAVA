@@ -23,6 +23,8 @@ public class Quest04 {
         System.out.println("De onde você é(naturalidade): ");
         String naturalidade = ler.nextLine();
 
+        ler.close();
+
         // Soluçando
         System.out.println("Deseja visualizar os dados completos? ");
         String validar = ler.nextLine();

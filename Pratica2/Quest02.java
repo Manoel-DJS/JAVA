@@ -21,6 +21,7 @@ public class Quest02 {
         System.out.println("Digite um número(C): ");
         int c = ler.nextInt();
 
+        ler.close();
             // Soluçando 
             if (a <= b && a <= c) {
                 System.out.println(a);
