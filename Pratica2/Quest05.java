@@ -4,7 +4,7 @@
 * Data: 16 / 04 / 2023
 */
 
-package Lista;
+package Pratica2;
 import java.util.Scanner;
 
 public class Quest05 {

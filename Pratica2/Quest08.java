@@ -17,7 +17,7 @@ Venda com cartão de débito - desconto de 8%
 Venda com cartão de crédito - desconto de 7%
 
 **/
-package Lista;
+package Pratica2;
 import java.util.Scanner;
 
 public class Quest08 {

@@ -15,7 +15,7 @@ Exemplo para o mês 1: "Mês: Janeiro – Estação: Verão"
  
 **/
 
-package Lista;
+package Pratica2;
 import java.util.Scanner;
 public class Quest07 {
     public static void main(String[] args) {
