@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Quest02",
             "request": "launch",
+            "mainClass": "Pratica1.Quest02",
+            "projectName": "JAVA_671f68e2"
+        },
+        {
+            "type": "java",
+            "name": "Quest01",
+            "request": "launch",
+            "mainClass": "Pratica1.Quest01",
+            "projectName": "JAVA_671f68e2"
+        },
+        {
+            "type": "java",
+            "name": "Quest02",
+            "request": "launch",
             "mainClass": "Pratica2.Quest02",
             "projectName": "JAVA_671f68e2"
         },
