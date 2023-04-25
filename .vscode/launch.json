@@ -8,6 +8,34 @@
             "type": "java",
             "name": "Quest07",
             "request": "launch",
+            "mainClass": "Pratica1.Quest07",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Quest06",
+            "request": "launch",
+            "mainClass": "Pratica1.Quest06",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Quest05",
+            "request": "launch",
+            "mainClass": "Pratica1.Quest05",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Quest04",
+            "request": "launch",
+            "mainClass": "Pratica1.Quest04",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Quest07",
+            "request": "launch",
             "mainClass": "Pratica2.Quest07",
             "projectName": "GitHub_681be412"
         },
