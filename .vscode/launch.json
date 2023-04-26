@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AtividadeAula",
+            "request": "launch",
+            "mainClass": "AulaTeste.AtividadeAula",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Fcalado",
+            "request": "launch",
+            "mainClass": "AulaTeste.Fcalado",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
             "name": "Quest07",
             "request": "launch",
             "mainClass": "Pratica1.Quest07",
