@@ -14,10 +14,11 @@ public class Quest07 {
         System.out.println("Digite o lado do quadrado: ");
         double ladoQuadrado = scanner.nextDouble();
 
+        scanner.close();
         double areaQuadrado = Math.pow(ladoQuadrado, 2);
-
         // saida
-
+    
+        System.out.println("A área do quadrado é: " + areaQuadrado);
         System.out.println("O dobro da área do quadrado: " + (areaQuadrado*2));
     
     }
