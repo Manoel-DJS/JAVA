@@ -15,7 +15,9 @@ public class Quest10 {
         System.out.println("Digite a temperatura(graus Celcius): ");
         double grausCelcius = scanner.nextDouble();
 
-        double grausFahrenheit = (((5 * grausCelcius) / 9) +32);
+        scanner.close();
+        double grausFahrenheit = ((1.8 * grausCelcius)+32);
+
 
         System.out.printf("%.1f graus Celcius transformados para graus Fahrenheit fica: %.1f graus", grausCelcius, grausFahrenheit);
     }
