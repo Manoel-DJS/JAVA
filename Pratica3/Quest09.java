@@ -24,7 +24,7 @@ public class Quest09 {
         }
 
         for(int l = 0;  l < 10 ; l++){
-            System.out.println("Espaço");
+            System.out.println("");
             for(int c = 0; c < 10 ; c++){
                 System.out.println(" A posição da Linha: " + l + " A posição da coluna: "+ c + " O valor na Matriz é: " + matriz[l][c]); 
             }

@@ -33,7 +33,7 @@ public class Quest06 {
         }
         scanner.close();
         
-        System.out.print("O tempo necessário para o gás ultrapassar 1000 centímetros cúbicos é de " + (segundos) + "segundos");
+        System.out.print("O tempo necessário para o gás ultrapassar 1000 centímetros cúbicos é de " + (segundos) + " segundos");
         
     }
 }
