@@ -24,14 +24,17 @@ public class Quest11 {
         System.out.println("Digite um número real: " );
         double numReal = scanner.nextDouble();
 
+        scanner.close();
+
         int letraA = (num1*2) + (num2/2);
         int letraB = (num1*3) + num2;
         double letraC = Math.pow(numReal, 3);
 
+        // Saida
         System.out.println("Resposta: ");
-        System.out.println(letraA);
-        System.out.println(letraB);
-        System.out.println(letraC);
+        System.out.println("O produto do dobro do primeiro com metade do segundo: " + letraA);
+        System.out.println("A soma do triplo do primeiro com o terceiro: " + letraB);
+        System.out.println("O terceiro elevado ao cubo: " + letraC);
 
     }
 }
