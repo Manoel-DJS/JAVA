@@ -14,19 +14,20 @@ public class Quest16 {
         double metrosQuadrados = scanner.nextDouble();
 
         scanner.close();
-        double preçoTotal = 0;
-        double lata = 0;
-        double litro = 0;
-        if(metrosQuadrados < 18){
-            System.out.println("é necessário comprar apenas 1 lata de tinta");
-        } else{
-            litro =  metrosQuadrados / 3;   
-        }
-        for(litro;litro<;lata ++){
+        double litros = metrosQuadrados / 3;
+        System.out.println(litros);
 
+        double lata = 0;
+        for (int c = 0; c <= litros; c +=18){
+            lata += 1;
+            System.out.println(c);
+            System.out.println(lata);
         }
+        double preçoTotal = lata * 80;
+
         
-        System.out.printf("Para pintar uma área de %.1f metros quadrados, é necessário comprar %.1f latas de tinta \n", metrosQuadrados, litro);
+        System.out.printf("Para pintar uma área de %.1f metros quadrados, é necessário comprar %.1f latas de tinta \n", metrosQuadrados, lata);
+        System.out.printf("Preço das latas: R$%.2f",preçoTotal);
 
 
 
