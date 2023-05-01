@@ -21,6 +21,8 @@ public class Quest14 {
         double excesso = 0;
         double multa = 0;
 
+        scanner.close();
+
         if(peso <= 50){
             System.out.println(peso +"Kg" + " // peso está nos padrões do estado.");
         } else{
