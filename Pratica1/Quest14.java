@@ -18,6 +18,17 @@ public class Quest14 {
 
         System.out.println("Digite o peso dos peixes: ");
         double peso = scanner.nextDouble();
-        
+        double excesso = 0;
+        double multa = 0;
+
+        if(peso <= 50){
+            System.out.println(peso +"Kg" + " // peso está nos padrões do estado.");
+        } else{
+            excesso = peso - 50;
+            multa = excesso * 4;
+            System.out.println("Peso dos peixes: " + peso);
+            System.out.println("Excesso de peso: " + excesso);
+            System.out.println("O senhor deve pagar: " + multa);
+        }
     }
 }
