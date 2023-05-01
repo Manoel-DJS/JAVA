@@ -13,8 +13,6 @@ calcule os descontos e o salário líquido, conforme a tabela abaixo:
 = Salário Liquido : R$
 Obs.: Salário Bruto - Descontos = Salário Líquido.
 
-Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
-
 Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00 ou em galões de 3,6 litros, que custam R$ 25,00.
 Informe ao usuário as quantidades de tinta a serem compradas e os respectivos preços em 3 situações:
 comprar apenas latas de 18 litros;
@@ -35,6 +33,24 @@ public class Quest15 {
         System.out.println("Programa Calcular Descontos");
         
         // Entrada de dados
-        
+        System.out.println("Quanto você ganha por hora: ");
+        double sHora = scanner.nextDouble();
+
+        System.out.println("Quantas horas você trabalhou esse mês: ");
+        double horasTrabalhadas = scanner.nextDouble();
+
+        scanner.close();
+
+        double salarioBruto = sHora * horasTrabalhadas;
+        double IR = salarioBruto * 0.11;
+        double INSS = salarioBruto * 0.08;
+        double sindicato = salarioBruto * 0.05;
+        double descontos = IR + INSS + sindicato;
+
+        System.out.printf("Seu Salario Bruto: R$%.2f reais \n", salarioBruto);
+        System.out.printf("O IR: R$%.2f reais \n", IR);
+        System.out.printf("Quanto pagou ao INSS: R$%.2f reais \n", INSS);
+        System.out.printf("Quanto pagou ao Sindicato: R$%.2f reais \n", sindicato);
+        System.out.printf("Seu Salário Líquido: R$%.2f reais \n", (salarioBruto-descontos));
     }
 }

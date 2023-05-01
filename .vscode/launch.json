@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Quest16",
+            "request": "launch",
+            "mainClass": "Pratica1.Quest16",
+            "projectName": "JAVA_671f68e2"
+        },
+        {
+            "type": "java",
+            "name": "Quest15",
+            "request": "launch",
+            "mainClass": "Pratica1.Quest15",
+            "projectName": "JAVA_671f68e2"
+        },
+        {
+            "type": "java",
             "name": "Quest14",
             "request": "launch",
             "mainClass": "Pratica1.Quest14",

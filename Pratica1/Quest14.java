@@ -28,9 +28,9 @@ public class Quest14 {
         } else{
             excesso = peso - 50;
             multa = excesso * 4;
-            System.out.println("Peso dos peixes: " + peso);
-            System.out.println("Excesso de peso: " + excesso);
-            System.out.println("O senhor deve pagar: " + multa);
+            System.out.printf("Peso dos peixes: %.2f kg \n", peso);
+            System.out.printf("Excesso de peso: %.2f kg \n", excesso);
+            System.out.printf("O senhor deve pagar: %.2f reais \n", multa);
         }
     }
 }
