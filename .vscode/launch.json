@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pratica5Tarefa04",
+            "request": "launch",
+            "mainClass": "Pratica5.Pratica5Tarefa04",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Pratica5Tarefa03",
+            "request": "launch",
+            "mainClass": "Pratica5.Pratica5Tarefa03",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Pratica5Tarefa02",
+            "request": "launch",
+            "mainClass": "Pratica5.Pratica5Tarefa02",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Pratica5Tarefa02",
+            "request": "launch",
+            "mainClass": "AulaTeste.Pratica5Tarefa02",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
+            "name": "Pratica5Tarefa01",
+            "request": "launch",
+            "mainClass": "AulaTeste.Pratica5Tarefa01",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
             "name": "Quest16",
             "request": "launch",
             "mainClass": "Pratica1.Quest16",
