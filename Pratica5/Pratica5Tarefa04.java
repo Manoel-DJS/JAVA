@@ -16,15 +16,24 @@ package Pratica5;
 
 public class Pratica5Tarefa04 {
     public static void main(String[] args) {
-        System.out.println(close10(8, 12));
+        System.out.println(close10(12, 7));
+        System.out.println(close10(8, 11));
 
     }
 
     public static int close10(int a, int b) {
         int num1 = a - 10;
         int num2 = b - 10;
-        num1 = -1*(num1);
+        
+        
         num2 = -1*(num2);
+
+        if(num1 < 0){
+            num1 = -1*(num1);
+        }
+        if(num2 < 0){
+            num2 = -1*(num2);
+        }
 
         if(num1 == num2){
             return 0;
