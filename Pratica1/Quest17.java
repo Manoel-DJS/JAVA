@@ -16,47 +16,36 @@ public class Quest17 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        // Entrada de dados
-        System.out.println("Digite o tamanho da área que será pintada: ");
-        double areaPintada = scanner.nextDouble();
-
+        System.out.print("Informe o tamanho da área a ser pintada em metros quadrados: ");
+        double area = scanner.nextDouble();
+     
         scanner.close();
 
-        double litros = areaPintada / 6;
+        double litrosTinta = area / 6.0;
 
-        double lata = 0;
-        for (int c = 0; c < litros; c +=18){
-            lata += 1;
+        double latasCombinadas = (litrosTinta / 18.0);
+
+        double litrosRestantes = litrosTinta - latasCombinadas * 18.0;
+        if(litrosRestantes < 0){
+            litrosRestantes += 18;
         }
-        double preçoLatas = lata * 80;
-
-        double galoes = litros / 3.6;
-        if(galoes % 3.6 != 0){
-            galoes += 1;
-        }
-
-
-        double preçoGaloes = galoes*25; //
-
-        double misturaLata =  litros/18; //
+        double galoesCombinados = (litrosRestantes / 3.6);
+        double precoCombinado = latasCombinadas * 80.0 + galoesCombinados * 25.0;
+        
+        
+        System.out.println("Quantidade de latas e galões de tinta necessárias para minimizar o desperdício: " + (int)latasCombinadas + " latas e " + (int)galoesCombinados + " galões");
+        System.out.println("Preço total da combinação de latas e galões de tinta: R$ " + precoCombinado);
+        
+        
+/** 
 
         double litrosRestantes = (litros - lata*18);
         if(litrosRestantes < 0){
             litrosRestantes += 18;
         }
 
-        galoes = litrosRestantes / 3.6;
+**/
 
-        
-
-        double preçoTotal = galoes * 25 + lata * 80;
-
-        System.out.println("Litros: " + litros);
-        System.out.println("Lata: " + lata);
-        System.out.println("Galoes: " + galoes);
-        System.out.println(litrosRestantes);
-        System.out.printf("Preço total: R$%.2f", preçoTotal);
-
-        }
+    }
 
 }
