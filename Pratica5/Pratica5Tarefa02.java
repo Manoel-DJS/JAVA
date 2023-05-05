@@ -26,11 +26,10 @@ public class Pratica5Tarefa02 {
     }
 
     private static double sumDouble(int num1, int num2) {
-        double resultado;
         if(num1==num2){
-            return resultado = (num1 + num2)*2;
+            return (num1 + num2)*2;
         } else{
-            return resultado = num1 + num2;
+            return num1 + num2;
         }
         
         
