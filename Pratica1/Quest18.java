@@ -18,6 +18,8 @@ public class Quest18 {
         System.out.println("Digite a velocidade do Link de Internet(em Mbps): ");
         double velocidadeInternet = scanner.nextDouble();
 
+        scanner.close();
+
         double tempoAproximado = (tamanhoArquivo / velocidadeInternet) / 60;
 
         System.out.printf("Tempo Médio para concluir o download: %.1f minutos", tempoAproximado);
