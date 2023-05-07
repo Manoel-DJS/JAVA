@@ -21,31 +21,44 @@ public class Quest17 {
      
         scanner.close();
 
-        double litrosTinta = area / 6.0;
-
-        double latasCombinadas = (litrosTinta / 18.0);
-
-        double litrosRestantes = litrosTinta - latasCombinadas * 18.0;
-        if(litrosRestantes < 0){
-            litrosRestantes += 18;
-        }
-        double galoesCombinados = (litrosRestantes / 3.6);
-        double precoCombinado = latasCombinadas * 80.0 + galoesCombinados * 25.0;
-        
-        
-        System.out.println("Quantidade de latas e galões de tinta necessárias para minimizar o desperdício: " + (int)latasCombinadas + " latas e " + (int)galoesCombinados + " galões");
-        System.out.println("Preço total da combinação de latas e galões de tinta: R$ " + precoCombinado);
-        
-        
-/** 
-
-        double litrosRestantes = (litros - lata*18);
-        if(litrosRestantes < 0){
-            litrosRestantes += 18;
+        double latas = (area/6) / 18;
+        if((area/6) % 18 != 0){
+            latas +=1 ;
         }
 
-**/
+        double galoes = (area/6) / 3.6;
+        if((area/6) % 3.6 != 0){
+            galoes += 1;
+        }
 
+        double latasMisturadas = area / (18 * 6); // quantidade máxima de latas necessárias
+        double galoesMisturados = 0;
+        double areaRestante = area % (18 * 6);
+        if (areaRestante != 0) {    // se há área restante, adicionar um galão para cobri-la
+            galoesMisturados = areaRestante / (3.6 * 6);
+            if (areaRestante % (3.6 * 6) != 0) {
+            galoesMisturados++;     // acrescenta 1 galão para cobrir a área restante
+            }
+        }
+
+        // acrescentar 10% de folga em todas as opções
+        latas = (int) Math.ceil(latas * 1.1);
+        galoes = (int) Math.ceil(galoes * 1.1);
+        latasMisturadas = (int) Math.ceil(latasMisturadas * 1.1);
+        galoesMisturados = (int) Math.ceil(galoesMisturados * 1.1);
+
+            // calcular o preço total em cada opção
+        double precoLatas = latas * 80.0;
+        double precoGaloes = galoes * 25.0;
+        double precoMisturado = (latasMisturadas * 80.0) + (galoesMisturados * 25.0);
+
+        System.out.println("Quantidade de latas de tinta necessárias: " + latas);
+        System.out.println("Preço total das latas de tinta: R$ " + precoLatas);
+        System.out.println("Quantidade de galões de tinta necessários: " + galoes);
+        System.out.println("Preço total dos galões de tinta: R$ " + precoGaloes);
+        System.out.println("Quantidade de latas e galões de tinta necessárias para minimizar o desperdício: " + (int)latas + " latas e " + (int)galoes + " galões");
+        System.out.println("Preço total da combinação de latas e galões de tinta: R$ " + precoMisturado);
+        
     }
 
 }
