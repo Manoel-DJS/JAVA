@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
             "name": "Prova0",
             "request": "launch",
             "mainClass": "Prova.Prova0",

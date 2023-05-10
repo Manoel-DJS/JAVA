@@ -50,23 +50,27 @@ public class App {
         double C = 0;
         if(KM60 != 0){
             C+=1;
-            SKM60 = KM60*0.6
+            SKM60 = KM60*0.6;
         }
         if(KM80 != 0){
             C+=1;
+            SKM80 = KM60*0.8;
         }
         if(KM100 != 0){
             C+=1;
+            SKM100 = KM100;
         }
         if(KM120 != 0){
             C+=1;
+            SKM120 = KM120*1.2;
         }
         if(KM140 != 0){
             C+=1;
+            SKM140 = KM140*1.4;
         }
         double mediaPonderada;
         if(KM60 != 0 && KM80 != 0 && KM100 != 0 && KM120 != 0 && KM140 != 0){
-             mediaPonderada = ((KM60) + (KM80) + (KM100) + (KM120) + (KM140)) / C;
+             mediaPonderada = ((KM60 * SKM60) + (KM80 * SKM80) + (KM100 *SKM100) + (KM120 * SKM120) + (KM140 * SKM140)) / C;
         } else{
              mediaPonderada = ((KM60*0.6) + (KM80*0.8) + (KM100*1) + (KM120*1.2) + (KM140*1.4)) / C;
         }
@@ -90,4 +94,5 @@ public class App {
 
     }
     }
-}
+
+
