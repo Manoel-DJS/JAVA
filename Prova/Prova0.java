@@ -96,5 +96,7 @@ public class Prova0 {
         // Req15
         System.out.printf("Consumo total: %.4f litros \n", quantidadeTotalC);
 
+        // Req16
+        // https://github.com/Manoel-DJS/JAVA/blob/main/Prova/Prova0.java
     }
 }
