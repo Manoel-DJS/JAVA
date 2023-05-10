@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Prova0",
+            "request": "launch",
+            "mainClass": "Prova.Prova0",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
             "name": "Quest18",
             "request": "launch",
             "mainClass": "Pratica1.Quest18",
