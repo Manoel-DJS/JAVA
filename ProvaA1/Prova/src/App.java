@@ -1,9 +1,6 @@
-package Prova;
 import java.util.Scanner;
-
-public class Prova0 {
-    public static void main(String[] args) {
-        
+public class App {
+    public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
 
         // Entrada de dados
@@ -49,9 +46,11 @@ public class Prova0 {
         double quantidadeTotalC = combustivelGasto60 + combustivelGasto80 + combustivelGasto100 + combustivelGasto120 + combustivelGasto140;
 
         // Req10
+        double SKM60, SKM80, SKM100, SKM120, SKM140;
         double C = 0;
         if(KM60 != 0){
             C+=1;
+            SKM60 = KM60*0.6
         }
         if(KM80 != 0){
             C+=1;
@@ -89,5 +88,6 @@ public class Prova0 {
         // Req15
         System.out.printf("Consumo total: %.4f litros \n", quantidadeTotalC);
 
+    }
     }
 }
