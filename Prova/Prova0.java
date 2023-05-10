@@ -72,12 +72,8 @@ public class Prova0 {
         if(KM140 != 0){
             C+=1;
         }
-        double mediaPonderada;
-        if(KM60 != 0 && KM80 != 0 && KM100 != 0 && KM120 != 0 && KM140 != 0){
-             mediaPonderada = ((KM60) + (KM80) + (KM100) + (KM120) + (KM140)) / C;
-        } else{
-             mediaPonderada = ((KM60*0.6) + (KM80*0.8) + (KM100*1) + (KM120*1.2) + (KM140*1.4)) / C;
-        }
+
+        double mediaPonderada = ((KM60*0.6) + (KM80*0.8) + (KM100*1) + (KM120*1.2) + (KM140*1.4)) / C;
         
         // Req11
         double custoTotal = quantidadeTotalC * litroCombustivel;
