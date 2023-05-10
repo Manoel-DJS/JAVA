@@ -70,7 +70,7 @@ public class App {
         }
         double mediaPonderada;
         if(KM60 != 0 && KM80 != 0 && KM100 != 0 && KM120 != 0 && KM140 != 0){
-             mediaPonderada = ((KM60 * SKM60) + (KM80 * SKM80) + (KM100 *SKM100) + (KM120 * SKM120) + (KM140 * SKM140)) / C;
+             mediaPonderada = ((KM60 * SKM60) + (KM80 * SKM80) + (KM100 *KM100) + (KM120 * SKM120) + (KM140 * SKM140)) / C;
         } else{
              mediaPonderada = ((KM60*0.6) + (KM80*0.8) + (KM100*1) + (KM120*1.2) + (KM140*1.4)) / C;
         }
