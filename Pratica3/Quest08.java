@@ -17,11 +17,11 @@ public class Quest08 {
     public static void main(String[] args) {
         int vetor[] = new int[50]; // tamanho do vetor
 
-        for(int c = 0; c <= 50 -1; c++){
-            vetor[c] = 0;
+        for(int c = 0; c <= 50 -1; c++){ // preenchendo vetor
+            vetor[c] = 0; 
         }
 
-        for(int c = 0; c <= 50 -1; c++){
+        for(int c = 0; c <= 50 -1; c++){ // Acessando e imprimindo os 0
             System.out.println("Vetor= na posição: " + c + " o valor é: " + vetor[c]);
         }
 
