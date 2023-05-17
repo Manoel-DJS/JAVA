@@ -19,7 +19,7 @@ public class Fcalado {
         //Processamento
         double imc = peso / Math.pow(altura, 2);
         //Saídas
-        System.out.printf("valor do imc %.2f" + imc); 1
+        System.out.printf("valor do imc %.2f" + imc);
     }
 
 }
