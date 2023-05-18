@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Quest07",
+            "request": "launch",
+            "mainClass": "Pratica3.Quest07",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
             "name": "Quest06",
             "request": "launch",
             "mainClass": "Pratica2.Quest06",
