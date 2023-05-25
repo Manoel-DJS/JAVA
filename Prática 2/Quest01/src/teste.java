@@ -9,5 +9,7 @@ public class teste {
         int numA = ler.nextInt();
 
         System.out.println(numA);
+        
+        ler.close();
     }
 }

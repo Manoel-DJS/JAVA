@@ -13,6 +13,7 @@ public class App {
     int dias = ler.nextInt();
     int resultado = anos*365 + meses*30 + dias;
     System.out.println("Total de dias: " + resultado);
+        ler.close();
     }
     }
 
