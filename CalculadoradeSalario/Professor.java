@@ -12,7 +12,7 @@ public class Professor {
             } else if(salarioNovo > 1903.98 && salarioNovo <= 2826.65){
                 System.out.println("Alíquota imposto é de 7,5%");
                 this.salario = salarioNovo - salarioNovo*0.075;
-            }
+            } 
         } else if(tipoProfessor.equalsIgnoreCase("PJ")){
 
         } else if(tipoProfessor.equalsIgnoreCase("HORISTA")){
