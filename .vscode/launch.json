@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalculaSalarioProfessor",
+            "request": "launch",
+            "mainClass": "CalculadoradeSalario.CalculaSalarioProfessor",
+            "projectName": "GitHub_681be412"
+        },
+        {
+            "type": "java",
             "name": "Quest07",
             "request": "launch",
             "mainClass": "Pratica3.Quest07",
