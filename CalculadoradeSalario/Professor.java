@@ -14,17 +14,23 @@ public class Professor {
     */
     public void calcularSalario(String tipoProfessor){
         if(tipoProfessor.equalsIgnoreCase("CLT")){
-            this.pagamento = "Pagamento Mensal";
-
+ 
         } else if(tipoProfessor.equalsIgnoreCase("PJ")){
-            this.pagamento = "Pagamento por contrato";
+
 
         } else if(tipoProfessor.equalsIgnoreCase("HORISTA")){
-            this.pagamento = "Regime HORISTA";
-            System.out.println("Valor Hora: ");
-            int n = scanner.nextInt();
-            this.salario = n;
+            ProfessorHorista profhorista = new ProfessorHorista();
+            System.out.println("Valor da hora: ");
+            double valorHora = scanner.nextDouble();
+            profhorista.setValorHora(valorHora);
             
+            System.out.println("Digite a quantidade de horas trabalhadas: ");           
+            double horasTrabalhadas = scanner.nextDouble();
+            profhorista.setHorasTrabalhadas(horasTrabalhadas);
+
+            double resposta = profhorista.getHorasTrabalhadas() * profhorista.getValorHora();
+
+            this.salario = resposta;
 
         }
     }   
@@ -45,6 +51,12 @@ public class Professor {
 }
 
 /**
+
+
+                this.pagamento = "Regime HORISTA";
+            System.out.println("Valor Hora: ");
+            int n = scanner.nextInt();
+            this.salario = n;
 
     public void calcularSalario(String tipoProfessor, double salarioNovo){
         if(tipoProfessor.equalsIgnoreCase("CLT")){
