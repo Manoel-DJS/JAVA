@@ -5,21 +5,28 @@ public class Professor {
     Scanner scanner = new Scanner(System.in);
     private String nomeProfessor;
     private double salario;
-    private String pagamento;
+    private String tipoProfessor;
 
-    /* 
-    public void calcularSalario(String tipoProfessor, double salarioNovo){
-
-    }
-    */
     public void calcularSalario(String tipoProfessor){
         if(tipoProfessor.equalsIgnoreCase("CLT")){
- 
+            System.out.println("Digite o salário mensal do professor: ");
+            double salarioMensal = scanner.nextDouble();
+
+            this.tipoProfessor = "Professor CLT";
+            this.salario = salarioMensal;
+
+            scanner.close();
+            
         } else if(tipoProfessor.equalsIgnoreCase("PJ")){
+            System.out.println("Digite o valor do contrato: ");
+            double valorContrato = scanner.nextDouble();
 
+            this.tipoProfessor = "Professor PJ";
+            this.salario = valorContrato;
+            scanner.close();
 
-        } else if(tipoProfessor.equalsIgnoreCase("HORISTA")){
-            ProfessorHorista profhorista = new ProfessorHorista();
+        } else if(tipoProfessor.equalsIgnoreCase("HORISTA")){ // Regime de pagamento para professor Horista
+            ProfessorHorista profhorista = new ProfessorHorista(); 
             System.out.println("Valor da hora: ");
             double valorHora = scanner.nextDouble();
             profhorista.setValorHora(valorHora);
@@ -31,24 +38,35 @@ public class Professor {
             double resposta = profhorista.getHorasTrabalhadas() * profhorista.getValorHora();
 
             this.salario = resposta;
-
+            this.tipoProfessor = "Professor Horista";
+            
+            scanner.close();
         }
     }   
+
     public double getSalario() {
         return salario;
+    }
+
+    // get / set NomeFessor
+    public String getNomeProfessor() {
+        return nomeProfessor;
     }
     public void setNomeProfessor(String nomeProfessor) {
         this.nomeProfessor = nomeProfessor;
     }
-
-    public void calcularSalarioPJ(){
-
-    }
-
-    public void calcularSalarioHorista(){
-
+    
+    public String getTipoProfessor() {
+        return tipoProfessor;
     }
 }
+
+
+    /* 
+    public void calcularSalario(String tipoProfessor, double salarioNovo){
+
+    }
+    */
 
 /**
 
