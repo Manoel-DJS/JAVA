@@ -1,5 +1,9 @@
-/** 
+/* Nome do Aluno: Manoel Vinicius Silva Souza
+* RA: 722315125
+* Nome do Programa: Questão 11
+*/
 
+/** 
 Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
     o produto do dobro do primeiro com metade do segundo .
     a soma do triplo do primeiro com o terceiro.

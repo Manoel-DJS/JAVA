@@ -1,5 +1,9 @@
-/** 
+/* Nome do Aluno: Manoel Vinicius Silva Souza
+* RA: 722315125
+* Nome do Programa: Questão 9 
+*/
 
+/** 
 Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
 C = 5 * ((F-32) / 9).
 

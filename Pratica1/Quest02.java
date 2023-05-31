@@ -1,3 +1,7 @@
+/* Nome do Aluno: Manoel Vinicius Silva Souza
+* RA: 722315125
+* Nome do Programa: Questão 2 
+*/
 package Pratica1;
 import java.util.Scanner;
 

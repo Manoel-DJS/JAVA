@@ -1,3 +1,8 @@
+/* Nome do Aluno: Manoel Vinicius Silva Souza
+* RA: 722315125
+* Nome do Programa: Questão 4 
+*/
+
 /**
 Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 **/

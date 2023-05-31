@@ -1,5 +1,9 @@
-/** 
+/* Nome do Aluno: Manoel Vinicius Silva Souza
+* RA: 722315125
+* Nome do Programa: Questão 6 
+*/
 
+/** 
 Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
 
 A = pi(3,14)R^2
